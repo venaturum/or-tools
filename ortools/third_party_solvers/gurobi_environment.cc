@@ -338,7 +338,7 @@ std::vector<std::string> GurobiDynamicLibraryPotentialPaths() {
   std::vector<std::string> potential_paths;
   // clang-format off
   const std::vector<absl::string_view> kGurobiVersions = {
-      "1300",
+      "1302", "1301", "1300",
       "1203", "1202", "1201", "1200",
       "1103", "1102", "1101", "1100",
       "1003", "1002", "1001", "1000",
