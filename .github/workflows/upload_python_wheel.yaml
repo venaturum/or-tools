@@ -2,6 +2,9 @@
 name: Build and Upload (amd64 Linux Python)
 
 on:
+  push:
+    branches:
+      - v13
   workflow_dispatch:
 
 concurrency:
